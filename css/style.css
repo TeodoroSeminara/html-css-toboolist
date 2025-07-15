@@ -4,3 +4,29 @@ margin: 0;
 padding 0;
 box-sizing: border-box;
 }
+
+/*  Generics */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F6F8FA;
+}
+
+/* header */
+
+h1{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 0%;
+}
+
+#logo{
+    vertical-align: middle;
+    padding: 10px 0px 10px 20px;
+}
+
+#header-container{
+    background-color: #fff;
+}
+
