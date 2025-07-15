@@ -55,14 +55,16 @@ h1 {
 }
 
 .pressed {
-    background-color:#45ACEE ;
+    background-color: #45ACEE;
     color: #fff;
 }
 
-/* Main plan */
+/* Task list */
 
 .future-plan {
     background-color: #fff;
     margin-top: 5px;
     border-radius: 0 0 5px 5px;
+    padding: 10px 5px 5px 40px;
+    list-style: none;
 }
