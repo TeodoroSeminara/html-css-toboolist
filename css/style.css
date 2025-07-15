@@ -9,8 +9,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #F6F8FA;
-    font-size: 16px;
+    background-color: #a1a2a2;
+    font-size: 18px;
 }
 
 /* header */
@@ -71,7 +71,7 @@ li {
 
 .future-plan {
     background-color: #fff;
-    margin-top: 5px;
+    margin-top: 3px;
     border-radius: 0 0 5px 5px;
     padding: 10px 5px 5px 40px;
 }
@@ -86,6 +86,9 @@ li {
     border-radius: 50%;
     line-height: 15px;
     vertical-align: middle;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 1200;
 
 }
 
@@ -96,4 +99,19 @@ li {
 .cross {
     color: red;
 
+}
+
+/* badge */
+
+.badge {
+
+    display: inline-block;
+    height: 20px;
+    width: 60px;
+    font-size: 12px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: blue;
+
+    
 }
