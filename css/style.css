@@ -1,32 +1,59 @@
 /*CSS select */
 * {
-margin: 0;
-padding 0;
-box-sizing: border-box;
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
 }
 
 /*  Generics */
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #F6F8FA;
+    font-size: 16px;
 }
 
 /* header */
 
-h1{
+h1 {
     display: inline-block;
     font-size: 30px;
     font-weight: 800;
     line-height: 0%;
 }
 
-#logo{
+#logo {
     vertical-align: middle;
     padding: 10px 0px 10px 20px;
 }
 
-#header-container{
+#header-container {
     background-color: #fff;
 }
 
+/* main */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.button-selection {
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 10px 5px 5px 40px;
+    border-radius: 5px 5px 0 0;
+}
+
+.button-select {
+    background-color: #fff;
+    border: #bfbfbf solid 1px;
+    color: #bfbfbf;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.pressed {
+    background-color:#45ACEE ;
+    color: #fff;
+}
